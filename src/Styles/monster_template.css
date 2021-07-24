@@ -1,0 +1,23 @@
+h2{
+    font-size: 32px;
+}
+
+p{
+    font-size: 24px;
+    margin-top: -10px;
+}
+
+.card{
+    background-color: rgb(130, 204, 204);
+    padding: 3px;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.1s; 
+    box-shadow: 0 0 15px black;
+    border: transparent 1px solid;
+    border-radius: 5px;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
