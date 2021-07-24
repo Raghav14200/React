@@ -2,6 +2,27 @@
   text-align: center;
 }
 
+h1{
+  font-family: 'Bigelow rules';
+  font-size: 108px;
+  margin-bottom: 50px;
+  color:#0ccac4;
+}
+
+input[type=search]{
+  width:30%;
+  border-radius: 10px;
+  display: inline-block;
+  margin:50px auto;
+  padding: 10px;
+  outline: none;
+  font-size: 20px;
+}
+
+.align{
+  text-align: center;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -26,6 +47,20 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 40px;
+}
+
+.grid > div {
+  margin-bottom: 40px;
+}
+
+.grid{
+  margin: 0 100px 0 100px;
 }
 
 @keyframes App-logo-spin {
